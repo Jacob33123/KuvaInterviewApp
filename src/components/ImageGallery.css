@@ -1,0 +1,103 @@
+.image-gallery-wrapper {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.mid-section {
+  width: 305px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+  height: 100%;
+}
+
+.upper-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+.filters-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 5px;
+}
+
+.filter-label {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.filter-input {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.image-count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.camera-select {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.gallery-button-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 60px;
+}
+
+.gallery-button {
+  margin-bottom: 100px;
+  &:active {
+    transition: all 0.1s;
+    transform: scale(0.8);
+  }
+  &:hover {
+    transition: transform 0.1s;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
+
+.image-metadata {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 14px;
+  width: 305px;
+}
+
+.detection-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detection-list-value {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3px;
+  text-align: start;
+  max-width: 305px;
+}
