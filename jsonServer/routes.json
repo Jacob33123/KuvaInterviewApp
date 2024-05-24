@@ -2,5 +2,6 @@
   "/v1/*": "/$1",
   "/alarms/*": "/alarms",
   "/events/*": "/events",
+  "/camera/*": "/camera",
   "/users/*": "/users/"
 }
