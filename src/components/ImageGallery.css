@@ -60,7 +60,7 @@
 }
 
 .gallery-button-wrapper {
-  height: 100vh;
+  height: 700px;
   display: flex;
   align-items: center;
   width: 60px;
@@ -68,14 +68,13 @@
 
 .gallery-button {
   margin-bottom: 100px;
-  &:active {
-    transition: all 0.1s;
-    transform: scale(0.8);
-  }
   &:hover {
     transition: transform 0.1s;
     transform: scale(1.2);
     cursor: pointer;
+  }
+  &:active {
+    transform: scale(0.8);
   }
 }
 
